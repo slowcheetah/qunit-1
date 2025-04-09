@@ -1,5 +1,5 @@
 {
-  "name": "qunitjs",
+  "name": "@slowcheetah/qunitjs",
   "title": "QUnit",
   "description": "An easy-to-use JavaScript Unit Testing framework.",
   "version": "1.23.1",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jquery/qunit.git"
+    "url": "git@github.com:slowcheetah/qunit-1.git"
   },
   "keywords": [
     "testing",
