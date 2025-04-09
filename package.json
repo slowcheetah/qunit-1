@@ -4,13 +4,10 @@
   "description": "An easy-to-use JavaScript Unit Testing framework.",
   "version": "1.23.1",
   "homepage": "https://qunitjs.com",
-  "author": {
-    "name": "jQuery Foundation and other contributors",
-    "url": "https://github.com/jquery/qunit/blob/1.23.1/AUTHORS.txt"
-  },
+  "author": "jQuery Foundation and other contributors (https://github.com/jquery/qunit/blob/1.23.1/AUTHORS.txt)",
   "repository": {
     "type": "git",
-    "url": "git@github.com:slowcheetah/qunit-1.git"
+    "url": "git+ssh://git@github.com/slowcheetah/qunit-1.git"
   },
   "keywords": [
     "testing",
@@ -26,7 +23,6 @@
     "qunit/qunit.css",
     "LICENSE.txt"
   ],
-  "dependencies": {},
   "devDependencies": {
     "async": "1.5.2",
     "browserstack-runner": "0.4.3",
@@ -65,5 +61,8 @@
       "Tests"
     ]
   },
-  "main": "qunit/qunit.js"
+  "main": "qunit/qunit.js",
+  "directories": {
+    "test": "test"
+  }
 }
